@@ -5,7 +5,7 @@
 // 'does not allow rides over 2500 feet'
 // 'No can do.'
 
-function scuberGreetingForFeet(ride) {
+function scuberGreetingForFeet (ride) {
   let greeting
   if (ride > 2500) {
     greeting = 'No can do.'
@@ -18,7 +18,7 @@ function scuberGreetingForFeet(ride) {
   return greeting
 }
 
-function ternaryCheckCity(city) {
+function ternaryCheckCity (city) {
   return city === 'NYC' ? 'Ok, sounds good.' : 'No go.';
 }
 
