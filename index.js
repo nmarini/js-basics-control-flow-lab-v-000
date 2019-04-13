@@ -6,10 +6,15 @@
 // 'No can do.'
 
 function scuberGreetingForFeet(ride) {
-  // let freeSample
-  // if ride <= 400 {
-  //   'This one is on me!'
-  // }
+  let greeting
+  if (ride <= 400) {
+    let greeting = 'This one is on me!'
+  } else if (ride > 2000) {
+      let greeting =
+  } else {
+      let greeting =
+  }
+  greeting
 }
 
 function ternaryCheckCity() {
