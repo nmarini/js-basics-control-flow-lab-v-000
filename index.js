@@ -14,7 +14,7 @@ function scuberGreetingForFeet(ride) {
   } else if (ride > 2500) {
       greeting = 'No can do.'
   }
-  greeting
+  return greeting
 }
 
 function ternaryCheckCity() {
