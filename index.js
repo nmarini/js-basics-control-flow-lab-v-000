@@ -8,11 +8,11 @@
 function scuberGreetingForFeet(ride) {
   let greeting
   if (ride <= 400) {
-    let greeting = 'This one is on me!'
+    greeting = 'This one is on me!'
   } else if (ride > 2000) {
-      let greeting = 'I will gladly take your thirty bucks.'
-  } else if (ride > 2500){
-      let greeting = 'No can do.'
+      greeting = 'I will gladly take your thirty bucks.'
+  } else if (ride > 2500) {
+      greeting = 'No can do.'
   }
   greeting
 }
