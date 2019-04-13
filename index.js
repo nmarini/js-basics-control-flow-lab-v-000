@@ -19,6 +19,7 @@ function scuberGreetingForFeet(ride) {
 }
 
 function ternaryCheckCity(city) {
+  city === 'NYC'
 
 }
 
