@@ -6,24 +6,19 @@
 // 'No can do.'
 
 function scuberGreetingForFeet(ride) {
-  let greeting;
+  let greeting
   if (ride > 2500) {
-    greeting = 'No can do.';
+    greeting = 'No can do.'
   }
   else if (ride <= 400) {
-    greeting = 'This one is on me!';
+    greeting = 'This one is on me!'
   } else if (ride > 2000) {
-      greeting = 'I will gladly take your thirty bucks.';
+      greeting = 'I will gladly take your thirty bucks.'
   }
-  return greeting;
+  return greeting
 }
 
-function ternaryCheckCity(city) {
-
-}
-
-
-
+function ternaryCheckCity() {
 
 }
 
